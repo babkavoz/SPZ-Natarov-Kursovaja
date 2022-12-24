@@ -1,0 +1,80 @@
+﻿  ApacheLogs.cpp
+E:\Programming\spz\KURSACH\ApacheLogs\ApacheLogs\ApacheLogs.cpp(120,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\utility(200,55): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xmemory(673,1): message : see reference to function template instantiation 'std::pair<const std::wstring,int>::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64,0>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&) noexcept' being compiled
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xmemory(680,47): message : see reference to function template instantiation 'std::pair<const std::wstring,int>::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64,0>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&) noexcept' being compiled
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(806,1): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::wstring,int>>>::void_pointer>>,
+              _Ty=std::pair<const std::wstring,int>,
+              _Objty=std::pair<const std::wstring,int>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(807,34): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::wstring,int>>>::void_pointer>>,
+              _Ty=std::pair<const std::wstring,int>,
+              _Objty=std::pair<const std::wstring,int>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(994,20): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>,
+              _Ty=std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::wstring,int>>>::void_pointer>>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(1007,23): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>,
+              _Ty=std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<std::allocator<std::pair<const std::wstring,int>>>::void_pointer>>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(1031,20): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>,
+              _Kty=std::wstring,
+              _Ty=int,
+              _Pr=std::less<std::wstring>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\xtree(1032,30): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::wstring,int>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>,
+              _Kty=std::wstring,
+              _Ty=int,
+              _Pr=std::less<std::wstring>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\map(185,1): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::wstring,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=std::wstring,
+              _Ty=int,
+              _Pr=std::less<std::wstring>,
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>
+          ]
+E:\MyPrograms\VisualStudio\Main\VC\Tools\MSVC\14.34.31933\include\map(185,9): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::wstring,int>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>>(std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Kty=std::wstring,
+              _Ty=int,
+              _Pr=std::less<std::wstring>,
+              _Alloc=std::allocator<std::pair<const std::wstring,int>>
+          ]
+E:\Programming\spz\KURSACH\ApacheLogs\ApacheLogs\ApacheLogs.cpp(180,13): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::wstring,int>>>>,bool> std::map<std::wstring,int,std::less<std::wstring>,std::allocator<std::pair<const std::wstring,int>>>::insert<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>
+          ]
+E:\Programming\spz\KURSACH\ApacheLogs\ApacheLogs\ApacheLogs.cpp(180,21): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::wstring,int>>>>,bool> std::map<std::wstring,int,std::less<std::wstring>,std::allocator<std::pair<const std::wstring,int>>>::insert<std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Valty=std::pair<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>,unsigned __int64>
+          ]
+  ApacheLogs.vcxproj -> E:\Programming\spz\KURSACH\ApacheLogs\x64\Debug\ApacheLogs.exe
